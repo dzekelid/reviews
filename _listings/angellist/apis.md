@@ -34,17 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-review-id-get.md
-- name: AngelList Get Reviews
-  description: Get Reviews
+- name: AngelList Get Review
+  description: Get Review
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
   tags: Reviews
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-review-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-review-id-get-postman.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
