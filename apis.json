@@ -1,0 +1,356 @@
+{
+	"name": "Streadata.io API Gallery - Reviews",
+	"description": "This is a repository of reviews APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/reviews.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://reviews.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Best Buy",
+			"x-api-slug": "best-buy",
+			"description": "Best Buy Company Profile  With operations in the United States,  Canada and Mexico, Best Buy is a North  American retailer of technology and  entertainment products and services with  a commitment to growth and innovation.  The Best Buy family of brand...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/158-best-buy-apis.jpg",
+			"humanURL": "http://www.bestbuy.com/",
+			"baseURL": "https:///",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/best-buy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Los Angeles Times",
+			"x-api-slug": "los-angeles-times",
+			"description": "The LA Times is a leading source of breaking news, entertainment, sports, politics, and more for Southern California and the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/230-los-angeles-times.jpg",
+			"humanURL": "http://wsj.com",
+			"baseURL": "https:///",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/los-angeles-times/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twitter",
+			"x-api-slug": "twitter",
+			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png",
+			"humanURL": "https://twitter.com/",
+			"baseURL": "https://api.twitter.com//1.1",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/twitter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AngelList",
+			"x-api-slug": "angellist",
+			"description": "AngelList is where the world meets startups. Find a great startup job, invest in a startup, or raise money",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg",
+			"humanURL": "http://angel.co",
+			"baseURL": "https://api.angel.co//1/",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigOven",
+			"x-api-slug": "bigoven",
+			"description": "Free recipe app for home cooks. Create a meal plan, grocery list and more from your favorite recipes. Organize your recipe collection and take it anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg",
+			"humanURL": "http://www.bigoven.com",
+			"baseURL": "https://api2.bigoven.com//",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/bigoven/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Goodreads",
+			"x-api-slug": "goodreads",
+			"description": "Goodreads is a world&rsquo;s largest site for book readers and recommendations. As of December 2011, Goodreads has more than 6,700,000 members who have added more than 230,000,000 books to their shelves. A home for casual readers and bona-fide bookworms alike, Goodreads users recommend books, compare what they are reading, keep track of what they&rsquo;ve read and would like to read, find their next favorite book, form book clubs and much more. Goodreads was launched in January 2007.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/415-goodreads.jpg",
+			"humanURL": "http://www.goodreads.com",
+			"baseURL": "https:///",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/goodreads/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yelp",
+			"x-api-slug": "yelp",
+			"description": "User Reviews and Recommendations of Best Restaurants, Shopping, Nightlife, Food, Entertainment, Things to Do, Services and More at Yelp",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/536-yelp.jpg",
+			"humanURL": "http://yelp.com/engineering",
+			"baseURL": "https://api.yelp.com//v3",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/yelp/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "YellowBot",
+			"x-api-slug": "yellowbot",
+			"description": "Yellow Pages with ratings and reviews",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/977-yellowbot.jpg",
+			"humanURL": "http://www.yellowbot.com/about/about.html",
+			"baseURL": "https:///",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/yellowbot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The New York Times",
+			"x-api-slug": "the-new-york-times",
+			"description": "The New York Times: Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies, travel, books, jobs, education, real estate, cars & more at nytimes.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg",
+			"humanURL": "http://nytimes.com",
+			"baseURL": "https://api.nytimes.com//svc",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/the-new-york-times/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Netlify",
+			"x-api-slug": "netlify",
+			"description": "Our mission is simple. We want to take modern static websites and apps mainstream. Because the current web is a mess. Seriously though. Every week we go to Hackernews and follow a broken link. 79% of all Wordpress sites are vulnerable to known exploits, which alone represents 20% of all website. The emergence of mobile means a lot of slow loading sites with towering bounce rates and loss of business to follow. We should do better. We must actually. Because we can. Static websites have always been faster, safer, simpler and cheaper. It&rsquo;s just that browsers and shared hosting services weren&rsquo;t good enough, so there were too many compromises.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netlify-logo.jpg",
+			"humanURL": "https://www.netlify.com",
+			"baseURL": "https:///",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/netlify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rotten Tomatoes",
+			"x-api-slug": "rotten-tomatoes",
+			"description": "Rotten Tomatoes is a website launched in August 1998 devoted to film reviews and news; it is widely known as a film review aggregator. Coverage now includes TV content as well. The name derives from the practice of audiences throwing rotten tomatoes when disapproving of a poor stage performance. The company was created by Senh Duong and since January 2010 has been owned by Flixster, which itself was acquired in 2011 by Warner Bros.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png",
+			"humanURL": "http://rottentomatoes.com",
+			"baseURL": "https://api.rottentomatoes.com//api/public/v1.0",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/rotten-tomatoes/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Play",
+			"x-api-slug": "google-play",
+			"description": "The Google Play Developer API allows you to perform a number of publishing and app-management tasks. It includes two components: The Subscriptions and In-App Purchases API lets you manage in-app purchases and subscriptions. The Publishing API lets you upload and publish apps, and perform other publishing-related tasks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-play.png",
+			"humanURL": "https://play.google.com/store",
+			"baseURL": "https:///",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/google-play/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reviewshake",
+			"x-api-slug": "reviewshake",
+			"description": "Reviewshake helps you manage all your review sites from one place, automate new reviews from your customers and track review performance",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28931-subdomain-reviewshake-com.jpg",
+			"humanURL": "https://www.reviewshake.com/",
+			"baseURL": "https://subdomain.reviewshake.com//api/v1",
+			"tags": "Reviews",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/reviewshake/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Reviews",
+	"include": [
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "Best Buy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/best-buy/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Los Angeles Times",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/los-angeles-times/apis.yaml"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/twitter/apis.yaml"
+		},
+		{
+			"name": "AngelList",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/apis.yaml"
+		},
+		{
+			"name": "BigOven",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/bigoven/apis.yaml"
+		},
+		{
+			"name": "Goodreads",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/goodreads/apis.yaml"
+		},
+		{
+			"name": "Yelp",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/yelp/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "YellowBot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/yellowbot/apis.yaml"
+		},
+		{
+			"name": "The New York Times",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/the-new-york-times/apis.yaml"
+		},
+		{
+			"name": "Netlify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/netlify/apis.yaml"
+		},
+		{
+			"name": "Rotten Tomatoes",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/rotten-tomatoes/apis.yaml"
+		},
+		{
+			"name": "Google Play",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/google-play/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Reviewshake",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/reviewshake/apis.yaml"
+		}
+	]
+}

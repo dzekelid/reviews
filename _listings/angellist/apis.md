@@ -1,53 +1,52 @@
 ---
 name: AngelList
-description: 'AngelList is a US website for startups, angel investors, and job-seekers
-  looking to work at startups. The platform has a mission democratizing the investment
-  process. It started as an online introduction board for tech startups that needed
-  seed funding. Now, the site allows startups to raise money from angel investors
-  free of charge. AngelList syndicates allow investors to invite other accredited
-  investors to share in the deals. '
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+x-slug: angellist
+description: AngelList is where the world meets startups. Find a great startup job,
+  invest in a startup, or raise money
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Startups
-- Startup
-- Stack Network
-- My API Stack
-- Media
-- Investing
-- Directory
-- Business
-- Angellist API Stack
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/apis.yaml
+x-alexaRank: "2447"
+tags: Reviews
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AngelList
-  description: AngelList is a US website for startups, angel investors, and job-seekers
-    looking to work at startups
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
-  humanURL: ""
-  baseURL: https://api.angel.co//1/
-  tags: Reviews
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-review-id-get.md
-- name: AngelList Get Review
-  description: Get Review
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/angellist-logo.png
+- name: AngelList - Get Reviews
+  x-api-slug: reviews-get
+  description: Get Reviews
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
   humanURL: http://angel.co
   baseURL: https://api.angel.co//1/
-  tags: Reviews
+  tags: Investing, Startup, Business, My API Stack, Angellist API Stack, Stack Network,
+    Startups, Media, Marketplace, internet, API Provider, Directories, Profiles, SDIO
+    Data, General Data, Relative Data
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-review-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-review-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviews-get-openapi.md
+- name: AngelList - Get Review
+  x-api-slug: reviewsreview-id-get
+  description: Get Review
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/339-angellist.jpg
+  humanURL: http://angel.co
+  baseURL: https://api.angel.co//1/
+  tags: Investing, Startup, Business, My API Stack, Angellist API Stack, Stack Network,
+    Startups, Media, Marketplace, internet, API Provider, Directories, Profiles, SDIO
+    Data, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviewsreview-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/reviews/master/_listings/angellist/reviewsreview-id-get-openapi.md
 x-common:
 - type: x-blog
   url: https://blog.angel.co
+- type: x-api-gallery
+  url: http://angellist.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://angellist.stack.network
 - type: x-base-url
   url: http://api.angel.co/
 - type: x-blog
@@ -56,43 +55,29 @@ x-common:
   url: http://blog.angel.co/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/angellist
-- type: x-developer
-  url: https://angel.co/api
-- type: x-github
-  url: https://github.com/angellist
-- type: x-postman-collection
-  url: http://theapistack.com/data/angellist/angellist-postman-collection.json
-- type: x-privacy
-  url: https://angel.co/privacy
-- type: x-sdksio
-  url: https://sdks.io/SDK/View/angellist-startup-api
-- type: x-support
-  url: https://angel.co/help
-- type: x-terms-of-service
-  url: https://angel.co/terms
-- type: x-twitter
-  url: https://twitter.com/angellist
-- type: x-website
-  url: http://angel.co
-- type: x-blog
-  url: https://blog.angel.co
-- type: x-base-url
-  url: http://api.angel.co/
-- type: x-blog
-  url: http://blog.angel.co
-- type: x-blog-rss
-  url: http://blog.angel.co/rss
 - type: x-crunchbase
-  url: http://www.crunchbase.com/company/angellist
+  url: https://crunchbase.com/organization/angellist
 - type: x-developer
   url: https://angel.co/api
+- type: x-email
+  url: copyright@angel.co
+- type: x-email
+  url: syndicates@angel.co
+- type: x-email
+  url: team@angel.co
+- type: x-email
+  url: talent@angel.co
+- type: x-email
+  url: privacy@angel.co
+- type: x-email
+  url: abuse@angel.co
 - type: x-github
   url: https://github.com/angellist
 - type: x-postman-collection
   url: http://theapistack.com/data/angellist/angellist-postman-collection.json
 - type: x-privacy
   url: https://angel.co/privacy
-- type: x-sdksio
+- type: x-sdks-io
   url: https://sdks.io/SDK/View/angellist-startup-api
 - type: x-support
   url: https://angel.co/help
